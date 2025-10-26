@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,600;1,900&display=swap');
+
+/*
+ css/styles.css
+ Student Name: Hussam Alsharif
+ Student Id: 12428401
+*/
+
+:root {
+    --bg: #faf7f2;
+    --text: hwb(0 12% 88%);
+    --muted: #6b6b6b;
+    --brand: #216869;
+    --brand-2: #49a078;
+    --card: #ffffff;
+    --border: #e9e3db;
+}
+
+body {
+    margin: 0;
+    font-family: "Rubik", sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.6;
+    /*background-color: #f9f6f1;*/
+}
+
+.site-header{
+background-color: #f9f6f1;
+    height: 55px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left{
+    justify-content: flex-start;
+    margin-right: 420px;
+}
+
+.right{
+    justify-content: flex-end;
+
+}
+
+.right .a-spaces{
+
+    justify-content: space-between;
+
+}
+
+a.font-header{
+    text-decoration: none;
+    font-size: 18px;
+    color: #366768;
+    font-family: "Rubik", Sans-serif;
+    font-weight: 200;
+    margin-left: 13px;
+}
+
+.hero{
+    position: relative;
+}
+
+.image{
+    width: 100%;
+    height: 925px;
+}
+
+p.picture-daluona-1{
+    font-family: "Rubik", Sans-serif;
+    background-color: #619c79;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+transform:translate(-50%,-50%);
+    color: #1c4432;
+    font-weight: 200;
+    border-radius: 40px;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
+h1.picture-daluona-2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    font-family: "Rubik", Sans-serif;
+    font-size: 42px;
+    color: white;
+}
+
+h4.picture-daluona-3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    font-family: "Rubik", Sans-serif;
+    font-size: 15px;
+    color: #fdfbf5;
+    text-align: center;
+    font-weight: lighter;
+}
+
+button.picture-daluona-4{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    background-color: #366768;
+    font-size: 26px;
+    font-family: "Rubik", Sans-serif;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    padding: 18px 18px;
+}
+
+button.picture-daluona-4:hover{
+    border: 2px solid black;
+}
+
+.a-picture-daluona-4{
+    color: white;
+    text-decoration: none;
+}
+
+#home{
+    background-color: #f9f6f1;;
+}
+
+#about{
+    /*position: relative;*/
+    display:flex;
+    justify-content: center;
+    margin: 25px 135px 0 135px;
+
+}
+
+.card-about{
+    border: 1px solid #eeece8;
+    border-radius: 10px;
+    width: calc(100% / 2);
+    background-color: #ffffff;
+    padding: 18px 14px 0 14px;
+    margin: 0 25px 0 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+b.About{
+    font-family: "Rubik", Sans-serif;
+    font-size: 30px;
+
+}
+
+.p1-about{
+    font-family: Sans-serif;
+    font-size: 16px;
+
+}
+
+.p2-about{
+    font-family: Sans-serif;
+color: #797979;
+}
+
+.span-about{
+    font-weight: 200;
+    font-family: Sans-serif;
+    border-radius: 21px;
+    border: 1px solid #797979;
+    padding:10px;
+    font-size: 14px;
+    color: #4f4f4f;
+    margin: 0 4px 0 0;
+}
+
+.padding-span-about{
+    padding: 0 0 31px 0;
+}
+
+/*b.Chefs-Note{*/
+/*    font-family: "Rubik", Sans-serif;*/
+/*    font-size: 30px;*/
+
+/*}*/
+.Menu-Highlights{
+    font-family: "Rubik", Sans-serif;
+    font-size: 22px;
+    padding: 0 0 0 135px;
+    margin: 83px 0 0 0 ;
+}
+#menu{
+    display:flex;
+    justify-content: center;
+    padding: 0 135px 0 135px;
+}
+.card-menu{
+    width: calc((100% / 3));
+    margin: 0 25px 0 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 18px 14px 39px 14px;
+    border: 1px solid #eeece8;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+.h2-top-menu{
+    font-family: "Rubik", Sans-serif;
+    font-size: 22px;
+
+}
+.section-menu{
+    display: flex;
+justify-content: space-between;
+
+}
+.datail-1{
+font-size: 19px;
+}
+.price{
+    font-family: "Rubik", Sans-serif;
+    color: #426667;
+    font-size: 19px;
+}
+
+
+.datail-2{
+    font-family: Sans-serif;
+    color: #797979;
+    font-size: 17px;
+}
+.seprate{
+    font-size: 10px;
+    color: #797979;
+}
+
+.Note{
+    font-family: Sans-serif;
+    color: #797979;
+    font-size: 17px;
+    padding: 0 135px 0 135px;
+}
+
+/**{*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+#hours{
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+
+    padding: 0 135px 0 135px;
+    margin: 100px 0 0 0 ;
+}
+
+.card-hours{
+    width: calc(100% / 2);
+    /*height:310px;*/
+    border: 1px solid #eeece8;
+    box-shadow: 0 2px 4px 2px rgba(0,0,0,0.08);
+    padding: 0 14px 4px 14px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 0 25px 0 0;
+}
+
+.head-hours{
+    padding: 0 0 5px 0;
+    font-family: "Rubik", Sans-serif;
+    font-size: 35px;
+}
+
+.section-hours{
+    display:flex;
+    justify-content: space-between;
+ }
+
+.span-hours{
+    font-size: 18px;
+    color: #797979;
+}
+
+.p-reserve-1{
+    font-size: 18px;
+    font-family: Sans-serif;
+    /*color: #797979;*/
+}
+
+.b-reserve-1{
+    font-size: 18px;
+    font-family: "Rubik";
+}
+
+.p-reserve-2{
+    font-size: 18px;
+    font-family: Sans-serif;
+    color: #797979;
+}
+
+.a-reserve{
+    text-decoration: none;
+    color: #448182;
+}
+
+#find-us{
+    display: flex;
+    margin: 100px 0 0 0;
+    padding: 0 135px 50px 135px;
+    height: 250px;
+    border-bottom: 2px solid #e6e3dd;
+}
+
+.about-us{
+    background-color: #ffffff;
+    width: calc((100% / 2) - 14px);
+    border: 1px solid #eeece8;
+    box-shadow: 0 2px 4px 2px rgba(0,0,0,0.08);
+    padding: 18px 0 0 14px;
+    border-radius: 10px;
+    margin: 0 25px 0 0;;
+    /*height: 200px;*/
+
+}
+
+.head-about-us{
+    font-family: "Rubik", Sans-serif;
+    font-size: 35px;
+}
+
+.p-about-us-1{
+    font-family: Sans-serif;
+    font-size: 18px;
+}
+
+.p-about-us-2{
+    font-family: Sans-serif;
+    color: #797979;
+    font-size: 17px;
+}
+
+.card_image-about-us{
+    width: calc(100% / 2);
+    border-radius: 10px;
+    margin: 0 25px 0 0;
+}
+
+.image-about-us{
+    box-shadow: 0 2px 4px 2px rgba(0,0,0,0.08);
+    border: 1px solid #eeece8;
+    border-radius: 10px;
+    width:100%;
+    height: 250px;
+}
+
+.site-footer-site-12428401{
+    width: 100%;
+    position: relative;
+    /*display:flex;*/
+    /*justify-items: center;*/
+    /*align-items: center;*/
+}
+
+.footer{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    /*border-top: 2px solid #e6e3dd;*/
+    /*width: 100%;*/
+    /*padding: 15px 0 0 0;*/
+    margin: 40px 0 0 0;
+    padding: 35px 0 35px 0;
+    font-family: Sans-serif;
+    color: #797979;
+    font-size: 18px;
+}
+
+.a-footer{
+    text-decoration: none;
+    color: #448182;
+}
+
+@media (max-width: 768px) {
+
+    .image-about-us{
+        width: 100%;
+    }
+
+    #find-us {
+    flex-wrap: wrap;
+    }
+
+    .about-us{
+        width: calc(100% - 14px);
+    }
+
+    #hours{
+        flex-wrap: wrap;
+    }
+
+    .card-hours {
+        width: 100%;
+    }
+
+    #menu{
+        flex-wrap: wrap;
+    }
+
+    .card-menu{
+        width: 100%;
+    }
+
+    #about{
+        flex-wrap: wrap;
+    }
+
+    .card-about{
+        width: 100%;
+    }
+
+}
