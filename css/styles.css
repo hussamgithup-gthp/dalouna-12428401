@@ -22,7 +22,6 @@ body {
     color: var(--text);
     background: var(--bg);
     line-height: 1.6;
-    /*background-color: #f9f6f1;*/
 }
 
 .site-header{
@@ -131,7 +130,7 @@ button.picture-daluona-4:hover{
 }
 
 #about{
-    /*position: relative;*/
+  
     display:flex;
     justify-content: center;
     margin: 25px 135px 0 135px;
@@ -180,11 +179,7 @@ color: #797979;
     padding: 0 0 31px 0;
 }
 
-/*b.Chefs-Note{*/
-/*    font-family: "Rubik", Sans-serif;*/
-/*    font-size: 30px;*/
 
-/*}*/
 .Menu-Highlights{
     font-family: "Rubik", Sans-serif;
     font-size: 22px;
@@ -242,14 +237,11 @@ font-size: 19px;
     padding: 0 135px 0 135px;
 }
 
-/**{*/
-/*    box-sizing: border-box;*/
-/*}*/
 
 #hours{
     display: flex;
     justify-content: center;
-    /*align-items: center;*/
+    
 
     padding: 0 135px 0 135px;
     margin: 100px 0 0 0 ;
@@ -320,7 +312,6 @@ font-size: 19px;
     padding: 18px 0 0 14px;
     border-radius: 10px;
     margin: 0 25px 0 0;;
-    /*height: 200px;*/
 
 }
 
@@ -357,9 +348,6 @@ font-size: 19px;
 .site-footer-site-12428401{
     width: 100%;
     position: relative;
-    /*display:flex;*/
-    /*justify-items: center;*/
-    /*align-items: center;*/
 }
 
 .footer{
@@ -367,9 +355,6 @@ font-size: 19px;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    /*border-top: 2px solid #e6e3dd;*/
-    /*width: 100%;*/
-    /*padding: 15px 0 0 0;*/
     margin: 40px 0 0 0;
     padding: 35px 0 35px 0;
     font-family: Sans-serif;
