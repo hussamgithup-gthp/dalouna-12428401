@@ -37,15 +37,11 @@ background-color: #f9f6f1;
     margin-right: 420px;
 }
 
-.right{
+
+.a-spaces{
+
+    display: flex;
     justify-content: flex-end;
-
-}
-
-.right .a-spaces{
-
-    justify-content: space-between;
-
 }
 
 a.font-header{
@@ -369,40 +365,115 @@ font-size: 19px;
 
 @media (max-width: 768px) {
 
-    .image-about-us{
+    .footer {
+        margin: 105px 0 0 0;
+        padding: 0 0 35px 0;
+
+    }
+
+    .image-about-us {
         width: 100%;
+        margin-top: 10px;
+    }
+
+    .about-us {
+
+        width: 100%;
+        margin: 0 25px 20px 0;
     }
 
     #find-us {
-    flex-wrap: wrap;
-    }
-
-    .about-us{
-        width: calc(100% - 14px);
-    }
-
-    #hours{
         flex-wrap: wrap;
+        margin: 15px 0 0 0;
+        padding: 0 0 250px 66px;
+
     }
 
     .card-hours {
         width: 100%;
+
+        padding: 0 14px 4px 14px;
+        margin: 0 0 27px 0;
     }
 
-    #menu{
-        flex-wrap: wrap;
+    .Note {
+
+        margin: -22px 0 33px -65px
     }
 
-    .card-menu{
+    #hours {
+flex-wrap: wrap;
+        padding: 0 41px 0 66px;
+        margin: 0 0 0 0;
+    }
+
+    .Menu-Highlights{
+
+        padding: 0 0 0 152px;
+        margin: 0;
+    }
+
+    .card-menu {
         width: 100%;
+        margin: 0 25px 27px 0;
+
     }
 
-    #about{
+    #menu {
+        display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 20px 0 66px;
     }
 
-    .card-about{
+    #about {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 25px 48px 0 70px;
+    }
+
+    .card-about {
+        border: 1px solid #eeece8;
+        border-radius: 10px;
         width: 100%;
+        background-color: #ffffff;
+        padding: 18px 14px 0 14px;
+        margin: 0 0 18px 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    }
+
+    .left {
+
+        margin-right: 459px;
+    }
+
+    .a-spaces{
+        margin: 0 0 0 -475px;
+        display: flex;
+    }
+
+    button.picture-daluona-4 {
+        position: absolute;
+        top: 78%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #366768;
+        font-size: 26px;
+        font-family: "Rubik", Sans-serif;
+        color: white;
+        border-radius: 40px;
+        border: none;
+        padding: 18px 18px;
+    }
+
+    h1.picture-daluona-2 {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: "Rubik", Sans-serif;
+        font-size: 25px;
+        color: white;
     }
 
 }
