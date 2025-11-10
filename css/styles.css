@@ -59,7 +59,7 @@ a.font-header{
 
 .image{
     width: 100%;
-    height: 925px;
+    height: 800px
 }
 
 p.picture-daluona-1{
@@ -129,7 +129,7 @@ button.picture-daluona-4:hover{
   
     display:flex;
     justify-content: center;
-    margin: 25px 135px 0 135px;
+    margin: 25px 180px 0 180px;
 
 }
 
@@ -175,18 +175,19 @@ color: #797979;
     padding: 0 0 31px 0;
 }
 
-
 .Menu-Highlights{
     font-family: "Rubik", Sans-serif;
     font-size: 22px;
-    padding: 0 0 0 135px;
+    padding: 0 0 0 180px;
     margin: 83px 0 0 0 ;
 }
+
 #menu{
     display:flex;
     justify-content: center;
-    padding: 0 135px 0 135px;
+    padding: 0 180px 0 180px;
 }
+
 .card-menu{
     width: calc((100% / 3));
     margin: 0 25px 0 0;
@@ -196,19 +197,22 @@ color: #797979;
     border: 1px solid #eeece8;
     box-shadow: 0 2px 4px rgba(0,0,0,0.08);
 }
+
 .h2-top-menu{
     font-family: "Rubik", Sans-serif;
     font-size: 22px;
 
 }
+
 .section-menu{
     display: flex;
 justify-content: space-between;
-
 }
+
 .datail-1{
 font-size: 19px;
 }
+
 .price{
     font-family: "Rubik", Sans-serif;
     color: #426667;
@@ -230,7 +234,7 @@ font-size: 19px;
     font-family: Sans-serif;
     color: #797979;
     font-size: 17px;
-    padding: 0 135px 0 135px;
+    padding: 0 180px 0 180px;
 }
 
 
@@ -239,7 +243,7 @@ font-size: 19px;
     justify-content: center;
     
 
-    padding: 0 135px 0 135px;
+    padding: 0 180px 0 180px;
     margin: 100px 0 0 0 ;
 }
 
@@ -295,14 +299,14 @@ font-size: 19px;
 #find-us{
     display: flex;
     margin: 100px 0 0 0;
-    padding: 0 135px 50px 135px;
-    height: 250px;
+    padding: 0 180px 50px 180px;
+    height: 320px;
     border-bottom: 2px solid #e6e3dd;
 }
 
 .about-us{
     background-color: #ffffff;
-    width: calc((100% / 2) - 14px);
+    width: 48%;
     border: 1px solid #eeece8;
     box-shadow: 0 2px 4px 2px rgba(0,0,0,0.08);
     padding: 18px 0 0 14px;
@@ -328,6 +332,7 @@ font-size: 19px;
 }
 
 .card_image-about-us{
+    background-color: #ffffff;
     width: calc(100% / 2);
     border-radius: 10px;
     margin: 0 25px 0 0;
@@ -337,8 +342,10 @@ font-size: 19px;
     box-shadow: 0 2px 4px 2px rgba(0,0,0,0.08);
     border: 1px solid #eeece8;
     border-radius: 10px;
-    width:100%;
-    height: 250px;
+    width:48%;
+    height: 100%;
+    object-fit:cover ;
+    margin-right: 25px;
 }
 
 .site-footer-site-12428401{
@@ -465,6 +472,7 @@ flex-wrap: wrap;
         border: none;
         padding: 18px 18px;
     }
+
 
     h1.picture-daluona-2 {
         position: absolute;
